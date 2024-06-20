@@ -1,0 +1,25 @@
+#logtype：日志类型
+#eventid_info：windows日志ID所对应的中文含义
+#access_token：钉钉机器人的access_token
+#secret：钉钉机器人的secret
+#server_url: 服务端地址
+#PassCard：服务端密钥
+logtype: Security
+eventid_info:
+  4624: 已成功登录帐户
+  4625: 帐户登录失败
+  4634: 已注销帐户
+  4647: 用户启动的注销
+  4720: 用户帐户已创建
+  4722: 用户帐户已启用
+  4724: 试图重置帐户密码
+  4725: 用户帐户已禁用
+  4726: 用户帐户已删除
+  4732: 已向启用了安全性的本地组中添加某个成员
+  4738: 已更改用户帐户
+  4740: 已锁定用户帐户
+  4767: 已解除锁定的用户帐户
+access_token: /*此处填写你自己的钉钉机器人access_token*/
+secret: /*此处填写你自己的钉钉机器人secret*/
+server_url: http://127.0.0.1:8080/monitor_api
+PassCard: Hx0@2024

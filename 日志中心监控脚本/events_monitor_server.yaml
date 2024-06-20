@@ -1,0 +1,23 @@
+#server_host：服务器监听地址
+#server_port：服务器监听端口
+#access_token：钉钉机器人的access_token
+#secret：钉钉机器人的secret
+#spark_switch: 大模型分析引擎开关
+#appid: 星火应用的appid
+#api_secret: 星火大模型的api_secret
+#api_key: 星火大模型的api_secret
+#domain： 星火大模型版本
+#Spark_url:星火大模型环境的地址
+#Prompt：星火大模型提示文本
+PassCard: Hx0@2024
+server_host: 0.0.0.0
+server_port: 8080
+access_token: /*此处填写你自己的钉钉机器人access_token*/
+secret: /*此处填写你自己的钉钉机器人secret*/
+spark_switch: on
+appid: 8e7b7efd
+api_secret: /*此处填写你自己的星火大模型api_secret*/
+api_key: /*此处填写你自己的星火大模型api_key*/
+domain: general
+Spark_url: ws://spark-api.xf-yun.com/v1.1/chat
+Prompt: 假设你是一名网络安全日志分析专家，请帮我分析并格式化下面的日志，并给出合适的处置建议。

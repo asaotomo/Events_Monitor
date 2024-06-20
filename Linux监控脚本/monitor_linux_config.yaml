@@ -1,0 +1,19 @@
+#logPath：登录日志路径
+#log_key：登录日志的关键词
+#access_token：钉钉机器人的access_token
+#secret：钉钉机器人的secret
+#server_url: 服务端地址
+#PassCard：服务端密钥
+logPath: /var/log/secure
+log_key:
+  - Accepted
+  - Disconnected
+  - Failed
+  - Received
+  - Accepted
+  - FAILED
+  - (to
+access_token: /*此处填写你自己的钉钉机器人access_token*/
+secret: /*此处填写你自己的钉钉机器人secret*/
+server_url: http://127.0.0.1:8080/monitor_api
+PassCard: Hx0@2024
