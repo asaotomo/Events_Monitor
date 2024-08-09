@@ -122,7 +122,7 @@ if __name__ == '__main__':
     | |___ \ V /  __/ | | | |_\__ \   | |  | | (_) | | | | | || (_) | |   
     |_____| \_/ \___|_| |_|\__|___/___|_|  |_|\___/|_| |_|_|\__\___/|_|   
                                  |_____|     
-    #Coded By Asaotomo                                   Update:2023.06.20    
+    #Coded By Asaotomo                                   Update:2024.08.01    
                              """)
     with open("monitor_windows_config.yaml", 'r+', encoding='utf-8') as config:
         data = yaml.safe_load(config)
